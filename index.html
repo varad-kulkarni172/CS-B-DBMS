@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Reporting Website</title>
+    <link rel="icon" type="image/png" href="download.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header">Welcome User !</h1>
+        <a href="AboutUs.html" style="color: white" id="abtus">About Us</a>
+        <a href="Help&Support.html" style="color: white" id="hlp&s">Help & Support</a>
+    </header>
+   
+
+    <main>
+        <section class="bug-form" id="bugFormSection">
+            <h2>Report your Bug here and the experts will get back at you in no time !</h2>
+            <form id="bugForm" action="http://localhost/createuser.php" method="post">
+                <label for="bugTitle">Bug Title:</label>
+                <input type="text" id="bugTitle" name="bugTitle" required>
+
+                <label for="bugDescription">Bug Description:</label>
+                <input type="text" id="bugDescription" name="bugDescription" required>
+
+                <label for="bugSeverity">Severity:</label>
+                <select id="bugSeverity" name="bugSeverity" required>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <label for="issueTitle">Issue Title:</label>
+                <input type="text" id="issueTitle" name="issueTitle" required>
+
+                <label for="issueDescription">Issue Description:</label>
+                <input type="text" id="issueDescription" name="issueDescription" required>
+
+                <label for="issueSeverity">Severity:</label>
+                <select id="issueSeverity" name="issueSeverity" required>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <button type="submit" class="submit-button" id="bugSubmitButton">Submit Problem</button>
+            </form>
+        </section>
+        <aside class="discussions-forum" id="discussionsForumSection">
+            <h2>Discussions Forum</h2>
+            <div class="discussion-topic">
+                <h3 class="topic-title">Topic: Best Practices for Bug Tracking</h3>
+                <p class="topic-description">Share your insights and experiences about effective bug tracking strategies.</p>
+            </div>
+            <div class="discussion-topic">
+                <h3 class="topic-title">Topic: Dealing with Critical Issues</h3>
+                <p class="topic-description">Discuss how your team handles critical issues and their resolutions.</p>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Bug Tracking System. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    
+  }
+
+  h1.about-us-heading {
+    font-size: 24px;
+    margin-top: 0;
+    margin-left: 610px;
+    
+  }
+  
+  .about-us {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-left: 550px;
+    color: #fff;
+  }
+
+  .about-us-paragraph {
+    margin-bottom: 65px;
+    
+  }
+  
+  a.about-us-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50vh;
+    padding: 0.5px;
+    background-color: #222;
+    color: #fff;
+
+}

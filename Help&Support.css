@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; 
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #help-and-support-heading {
+    /* This is the id for the help and support heading. */
+    font-size: 24px;
+    margin-top: 0;
+    margin-left: 630px;
+  }
+
+  .help-support-paragraph {
+    /* This is the class for the paragraphs in the help and support section. */
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+#help-and-support{
+    color: #fff;
+}
+
+  #faq-heading {
+    /* This is the id for the FAQ heading. */
+    font-size: 18px;
+    margin-top: 20px;
+    color: #fff;
+  }
+  #contact-support-heading{
+    color: #fff;
+  }
+  #documentation-heading{
+    color: #fff;
+  }
+  
+  .faq {
+    /* This is the class for the FAQ section. */
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .faq-paragraph {
+    /* This is the class for the paragraphs in the FAQ section. */
+    margin-bottom: 10px;
+  }
+  
+  .documentation {
+    /* This is the class for the documentation section. */
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .documentation-paragraph {
+    /* This is the class for the paragraphs in the documentation section. */
+    margin-bottom: 10px;
+  }
+  
+  .tutorials {
+    /* This is the class for the tutorials section. */
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .tutorials-paragraph {
+    /* This is the class for the paragraphs in the tutorials section. */
+    margin-bottom: 10px;
+
+  }
+ 
+  footer {
+    text-align: center;
+    margin-top: 50vh;
+    padding: 0.5px;
+    background-color: #222;
+    color: #fff;
+
+}

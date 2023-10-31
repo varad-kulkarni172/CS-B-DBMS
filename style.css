@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#222;
+}
+
+header{
+    margin-left: 600px;
+    margin-bottom: 9px;
+    color: #f9f9f9;
+}
+
+#abtus{
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+}
+
+#bugFormSection {
+    border-bottom:1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#bugFormSection h2, #bugListSection h2 {
+    margin-bottom: 10px;
+    color: #f9f9f9;
+    
+}
+
+label, .submit-button {
+    display: block;
+    margin-bottom: 15px;
+    color: #f9f9f9;
+}
+
+input{
+    width: 50%;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 90px;
+    display: block;
+    margin-bottom: 15px;
+    
+}
+
+select {
+    width: 10%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 70px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+#bugListSection ul {
+   padding: 1px;
+    border-bottom:1px solid #ddd;
+    overflow-y: auto;
+    max-height: 300px;
+    
+}
+
+.bug-item {
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    width: 1170px;
+    
+}
+
+.bug-title {
+    margin-bottom: 5px;
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 50vh;
+    padding: 0.5px;
+    background-color: #222;
+    color: #fff;
+
+}
+
+#discussionsForumSection {
+    background-color:#222;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 1170px;
+}
+
+#discussionsForumSection h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color:white;
+}
+
+.discussion-topic {
+    margin-bottom: 20px;
+}
+
+.topic-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #007BFF;
+}
+
+.topic-description {
+    font-size: 16px;
+    color: white;
+}
+
+#issueFormSection {
+    background-color:#222;
+    padding: 20px;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#issueFormSection h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color:white;
+}
+
+#issueForm label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+#issueForm select {
+    width: 10%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 70px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#issueForm input[type="text"]:focus,
+#issueForm select:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+#issueForm button.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#issueForm button.submit-button:hover {
+    background-color: #0056b3;
+}
+
+#issueForm button.submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
